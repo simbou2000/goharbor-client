@@ -163,7 +163,7 @@ func NewRESTClientForHostWithClient(u, username, password string, opts *config.O
 		return nil, err
 	}
 
-	v2SwaggerClient := v2client.New(runtimeclient.New(harborURL.Host, harborURL.Path, []string{harborURL.Scheme}), strfmt.Default)
+	v2SwaggerClient := v2client.New(runtimeclient.NewWithClient(harborURL.Host, harborURL.Path, []string{harborURL.Scheme}, client), strfmt.Default)
 	authInfo := runtimeclient.BasicAuth(username, password)
 
 	return NewRESTClient(v2SwaggerClient, opts, authInfo), nil
