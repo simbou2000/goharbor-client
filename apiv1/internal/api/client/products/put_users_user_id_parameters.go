@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/model"
+	"github.com/simbou2000/goharbor-client/v5/apiv1/model"
 )
 
 // NewPutUsersUserIDParams creates a new PutUsersUserIDParams object
