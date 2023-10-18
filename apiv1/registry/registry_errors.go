@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-openapi/runtime"
 
-	"github.com/mittwald/goharbor-client/v5/apiv1/internal/api/client/products"
+	"github.com/simbou2000/goharbor-client/v5/apiv1/internal/api/client/products"
 )
 
 const (

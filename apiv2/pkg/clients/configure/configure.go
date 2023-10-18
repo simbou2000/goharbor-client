@@ -5,10 +5,10 @@ import (
 
 	"github.com/go-openapi/runtime"
 
-	v2client "github.com/mittwald/goharbor-client/v5/apiv2/internal/api/client"
-	"github.com/mittwald/goharbor-client/v5/apiv2/internal/api/client/configure"
-	"github.com/mittwald/goharbor-client/v5/apiv2/model"
-	"github.com/mittwald/goharbor-client/v5/apiv2/pkg/config"
+	v2client "github.com/simbou2000/goharbor-client/v5/apiv2/internal/api/client"
+	"github.com/simbou2000/goharbor-client/v5/apiv2/internal/api/client/configure"
+	"github.com/simbou2000/goharbor-client/v5/apiv2/model"
+	"github.com/simbou2000/goharbor-client/v5/apiv2/pkg/config"
 )
 
 // RESTClient is a subclient for handling project related actions.
