@@ -1,4 +1,4 @@
-module github.com/mittwald/goharbor-client/v5
+module github.com/simbou2000/goharbor-client/v5
 
 go 1.20
 
