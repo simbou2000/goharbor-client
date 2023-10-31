@@ -42,3 +42,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/klog/v2 v2.90.1 // indirect
 )
+
+replace github.com/mittwald/goharbor-client => github.com/simbou2000/goharbor-client v5
